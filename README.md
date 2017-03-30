@@ -57,4 +57,4 @@ vocabulary and corpus that is fed to it.
 
 The program can be run using the following command from root folder (not inside rec2vec):
 
-* python m rec2vec walk length 2 number walks 2 workers 4
+* python -m rec2vec --walk-length 2 --number-walks 2 --workers 4
