@@ -25,10 +25,8 @@ The networkbased
 entity recommendation systems, which utilize useritem
 relationship
 information, require a method for preference propagation over the network [1].
-Data embedding is used in machine learning applications to create lowdimensiona
 
-ii
-l
+Data embedding is used in machine learning applications to create low dimensional
 feature
 representations, which preserves the structure of data points in their original space. Embedding
 means low dimensional vector representation of entities. In particular, information network
@@ -36,6 +34,7 @@ embedding is representation of a network in low dimensional vector space which p
 information about the structure of the network. The main goal of the heterogeneous embedding
 task is to learn mapping functions to project data from different modalities to a common space
 so that similarities between objects can be directly measured.
+
 One of the recent efficient to obtain a network embedding is DeepWalk [4]. DeepWalk produces
 the embeddings of nodes of the information network by first creating corpus of text, where
 words are node ids and sentences are random walks originated at each node of predefined
@@ -45,6 +44,7 @@ produces the embeddings. word2vec, a shallow neural networkbased
 set of algorithms [2] has
 been applied outside of the natural language processing (NLP) domain to, effectively map latent
 features hidden in the paths over the information network into a vector space.
+
 It’s been shown that the resulting low dimensional embeddings, which are produced by
 word2vec, are equivalent to factors in matrix factorization approaches [3] and [5]. Note, that in
 this project, word2vec has not been used for its originally intended NLP purpose as, for
